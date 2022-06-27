@@ -45,8 +45,8 @@ def run(server_class=HTTPServer, handler_class=S, port=443):
     try:
         httpd.socket = ssl.wrap_socket(httpd.socket,
                                server_side=True,
-                               certfile="/opt/simple_https_server/server.pem",
-                               keyfile="/opt/simple_https_server/key.pem",
+                               certfile="server.pem",
+                               keyfile="key.pem",
                                ssl_version=ssl.PROTOCOL_TLS)
         httpd.serve_forever()
     except KeyboardInterrupt:
