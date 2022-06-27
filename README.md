@@ -18,11 +18,11 @@ Clone the repository and enter the folder:
 
 Create a symbolic link to **fullchain.pem** (*/etc/letsencrypt/live/example.com/fullchain.pem*) with the name **server.pem**.
 
-    $ ln -s /etc/letsencrypt/live/example.com/fullchain.pem .
+    $ ln -s /etc/letsencrypt/live/example.com/fullchain.pem server.pem
 
 Create a symbolic link to **privkey.pem** (*/etc/letsencrypt/live/example.com/privkey.pem*) with the name **key.pem**.
 
-    $ ln -s /etc/letsencrypt/live/example.com/privkey.pem .
+    $ ln -s /etc/letsencrypt/live/example.com/privkey.pem key.pem
     
 The script can now be run with:
 
