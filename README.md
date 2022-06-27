@@ -27,3 +27,6 @@ Create a symbolic link to **privkey.pem** (*/etc/letsencrypt/live/example.com/pr
 The script can now be run with:
 
     $ python3 simple_https_server.py
+    
+## Credits
+This code is based on the gist by [Miel Donkers](https://gist.github.com/mdonkers/63e115cc0c79b4f6b8b3a6b797e485c7)
