@@ -23,7 +23,10 @@ Create a symbolic link to **fullchain.pem** (*/etc/letsencrypt/live/example.com/
 Create a symbolic link to **privkey.pem** (*/etc/letsencrypt/live/example.com/privkey.pem*) with the name **key.pem**.
 
     $ ln -s /etc/letsencrypt/live/example.com/privkey.pem key.pem
-    
+
+Your directory will look somewhat likes this:
+![Folder with files](https://github.com/NVQXE23I/simple-https-server/blob/main/folder.png?raw=true)
+   
 The script can now be run with:
 
     $ python3 simple_https_server.py
