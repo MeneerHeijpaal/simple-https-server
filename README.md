@@ -13,7 +13,7 @@ An active certificate. Letsencrypt is preferred, but any will do.
 ## Usage
 Clone the repository and enter the folder:
 
-    $ git clone https://github.com/NVQXE23I/simple-https-server.git
+    $ git clone https://github.com/MeneerHeijpaal/simple-https-server.git
     $ cd simple-https-server
 
 Create a symbolic link to **fullchain.pem** (*/etc/letsencrypt/live/example.com/fullchain.pem*) with the name **server.pem**.
